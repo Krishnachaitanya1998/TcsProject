@@ -13,6 +13,7 @@ public class HomePageTest extends Url_Page{
 		HomePage hp = new HomePage(driver);
 		hp.One_Way_Search();
 		Close_Url();
+		System.out.println("Opened_Url");
 	}	
 	@Test
 	public void Test002() throws Exception {
@@ -20,6 +21,7 @@ public class HomePageTest extends Url_Page{
 		HomePage hp = new HomePage(driver);
 		hp.verify_first_Select();
 		Close_Url();
+		System.out.println("Opened_Url");
 		
 	}
 	@Test
@@ -28,6 +30,7 @@ public class HomePageTest extends Url_Page{
 		HomePage hp = new HomePage(driver);
 		hp.verify_default_select();
 		Close_Url();
+		System.out.println("Opened_Url");
 	}
 		
 		
