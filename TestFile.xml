@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name = "Batch Suite">
+<listeners>
+<listener class-name ="Tests.Listeners"></listener>
+</listeners>
+
+<test name = "Batch Test">
+<classes>
+
+<class name = "Tests.HomePageTest"></class>
+<class name = "Tests.LinksTest"></class>
+
+</classes>
+
+</test>
+</suite>

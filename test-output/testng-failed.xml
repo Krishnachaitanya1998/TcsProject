@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Batch Suite]">
+  <listeners>
+    <listener class-name="Resources.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Batch Test(failed)">
+    <classes>
+      <class name="Tests.LinksTest">
+        <methods>
+          <include name="Test006"/>
+          <include name="Test004"/>
+        </methods>
+      </class> <!-- Tests.LinksTest -->
+    </classes>
+  </test> <!-- Batch Test(failed) -->
+</suite> <!-- Failed suite [Batch Suite] -->
